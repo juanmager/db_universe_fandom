@@ -11,6 +11,21 @@ section {
   padding: 150px 0;
 }
 
+#buttons{
+  padding-top: 20%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.ver-saga{
+  width: auto;
+}
+
+.titulo_contenido{
+  color: white;
+}
+
 .navbar-nav{
   float: right !important;
 }
@@ -46,7 +61,7 @@ section {
 .main_bg {
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/dark_bg.jpg)
+  background-image: url(../images/mainBackground_2.jpg)
 }
 
 .main_header {
@@ -128,11 +143,13 @@ section {
   background-size: cover;
 } */
 
+
 .bg_db {
   background-image: url(../images/db_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  max-height: 512px;
 }
 
 
@@ -146,12 +163,31 @@ section {
 
 .bg_db_gt {
   background-image: url(../images/db_gt_bg.jpg);
-  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .bg_db_super {
-  background-image: url(../images/db_super_bg.jpg);
+  background-image: url(../images/db_super_bg.png);
+  background-position: inherit;
+  background-size: cover;
+}
+
+.bg_db_batallaDeLosDioses {
+  background-image: url(../images/db_battle_bg.jpg);
+  background-position: inherit;
+  background-size: cover;
+}
+
+.bg_db_resurreccionFreezer{
+  background-image: url(../images/db_freezer_bg.jpg);
+  background-position: inherit;
+  background-size: cover;
+}
+
+.bg_db_broly {
+  background-image: url(../images/db_broly_bg.png);
   background-position: inherit;
   background-size: cover;
 }
