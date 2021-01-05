@@ -1,1 +1,1 @@
-This is a Fandom Page abot DB series created by myself.
+This is a Fandom Page about DB series created by myself.
