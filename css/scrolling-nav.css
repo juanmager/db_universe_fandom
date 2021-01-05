@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.navbar-nav{
+  float: right !important;
+}
+
+.name_domain{
+  margin-right: 40px;
+}
+
+.bg-primary {
+  background-color: black !important
+}
+
+.main_nav {
+  background-color: orange !important
+    /* background-image: url(/images/bg_nav.jpg); */
+    /* background-size: cover; */
+}
+
+.main_div_nav_size {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.min_li_size{
+  min-width: 130px;
+  margin-right: 100px;
+}
+
+.min_height_button{
+  min-height: 65px;
+}
+
+.main_bg {
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/dark_bg.jpg)
+}
+
+.main_header {
+  min-height: 600px;
+}
+
+#db_link {
+  background-image: url(../images/db_dragon_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_z_link {
+  background-image: url(../images/db_z_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_gt_link {
+  background-image: url(../images/db_gt_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_super_link {
+  background-image: url(../images/db_super_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_batallaDeLosDioses_link {
+  background-image: url(../images/db_battleOfGods_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_resurreccionDeFreezer_link {
+  background-image: url(../images/db_freezer_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_broly_link {
+  background-image: url(../images/db_broly_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+/* .li_bg_db{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.bg_db {
+  background-image: url(../images/db_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.bg_db_z {
+  background-image: url(../images/dbz_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.bg_db_gt {
+  background-image: url(../images/db_gt_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg_db_super {
+  background-image: url(../images/db_super_bg.jpg);
+  background-position: inherit;
+  background-size: cover;
+}
