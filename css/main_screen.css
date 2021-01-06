@@ -1,0 +1,267 @@
+header {
+  padding: 156px 0 100px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+
+  section {
+    min-height: 578px;
+    padding-top: 5%;
+  }
+
+  .name_domain {
+    margin-right: 0px;
+  }
+
+  .main_bg {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/backgrounds_mobile/main_bg_small_screen.jpg)
+  }
+
+  .bg_db {
+    background-image: url(../images/backgrounds_mobile/db_bg_small_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* min-width: 100vh; */
+    max-height: 512px;
+  }
+
+  .bg_db_z {
+    background-image: url(../images/backgrounds_mobile/bg_db_z_small_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_gt {
+    background-image: url(../images/backgrounds_mobile/bg_db_gt_small_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_super {
+    background-image: url(../images/backgrounds_mobile/bg_db_super.jpg);
+    background-position: inherit;
+    background-size: cover;
+  }
+
+  .bg_db_batallaDeLosDioses {
+    background-image: url(../images/backgrounds_mobile/bg_db_battleOfGods_small_screen.jpg);
+    background-position: inherit;
+    background-size: cover;
+  }
+
+  .bg_db_resurreccionFreezer {
+    background-image: url(../images/backgrounds_mobile/bg_freezer_small_screen.jpg);
+    background-position: inherit;
+    background-size: cover;
+  }
+
+  .bg_db_broly {
+    background-image: url(../images/backgrounds_mobile/db_broly_bg_small_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+
+@media screen and (min-width: 426px) {
+
+  section {
+    padding: 150px 0;
+  }
+  
+  .tittle_right{
+    text-align: end;
+  }
+  
+  .button_right {
+    text-align: end !important;
+  }  
+
+  /* section {
+    min-height: 578px;
+    padding-top: 5%;
+  } */
+
+  .oriented_left {
+    margin-left: 0px !important;
+  }
+
+  .oriented_right {
+    margin-left: 50% !important;
+    padding-right: 0%;
+  }
+
+  .name_domain {
+    margin-right: 40px;
+  }
+
+  .main_bg {
+    background-image: url(../images/backgrounds/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db {
+    background-image: url(../images/backgrounds/bg_db.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* max-height: 512px; */
+  }
+
+  .bg_db_z {
+    background-image: url(../images/backgrounds/db_z_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_gt {
+    background-image: url(../images/backgrounds/bg_db_gt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_super {
+    background-image: url(../images/backgrounds/db_super_bg.jpg);
+    background-position: inherit;
+    background-size: cover;
+  }
+
+  .bg_db_batallaDeLosDioses {
+    background-image: url(../images/backgrounds/bg_db_battleOfGods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_resurreccionFreezer {
+    background-image: url(../images/backgrounds/db_freezer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .bg_db_broly {
+    background-image: url(../images/backgrounds/db_broly_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.ver-saga {
+  width: auto;
+}
+
+.titulo_contenido {
+  color: white;
+}
+
+.navbar-nav {
+  float: right !important;
+}
+
+
+
+.bg-primary {
+  background-color: black !important
+}
+
+.main_nav {
+  background-color: rgb(36, 36, 36);
+  /* background-image: url(/images/bg_nav.jpg); */
+  /* background-size: cover; */
+}
+
+.main_div_nav_size {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.min_li_size {
+  min-width: 130px;
+  margin-right: 100px;
+}
+
+.min_height_button {
+  min-height: 65px;
+}
+
+#db_link {
+  background-image: url(../images/Logos_png/db_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_z_link {
+  background-image: url(../images/Logos_png/db_z_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_gt_link {
+  background-image: url(../images/Logos_png/db_gt_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_super_link {
+  background-image: url(../images/Logos_png/db_super_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_batallaDeLosDioses_link {
+  background-image: url(../images/Logos_png/db_battleOfGods_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_resurreccionDeFreezer_link {
+  background-image: url(../images/Logos_png/db_freezer_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
+
+#db_broly_link {
+  background-image: url(../images/Logos_png/db_broly_logo.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+}
