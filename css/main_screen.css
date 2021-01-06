@@ -1,11 +1,12 @@
 header {
-  padding: 156px 0 100px;
+  padding-top: 10vh;
+  min-height: 80vh;
 }
 
 @media screen and (min-width: 0px) and (max-width: 425px) {
 
   section {
-    min-height: 578px;
+    min-height: 80vh;
     padding-top: 5%;
   }
 
