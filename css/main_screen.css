@@ -266,3 +266,8 @@ header {
   margin: 0 auto;
   text-indent: -9999px;
 }
+
+.video{
+  width: 100%;
+  text-align: center;
+}
